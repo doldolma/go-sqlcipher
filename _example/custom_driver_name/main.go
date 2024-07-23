@@ -3,7 +3,7 @@ package main
 import (
 	"database/sql"
 
-	_ "github.com/mutecomm/go-sqlcipher/v4"
+	_ "github.com/doldolma/go-sqlcipher/v4"
 )
 
 func main() {

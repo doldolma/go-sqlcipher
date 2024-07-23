@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	"io/ioutil"
 
-	_ "github.com/mutecomm/go-sqlcipher/v4"
+	_ "github.com/doldolma/go-sqlcipher/v4"
 )
 
 func FuzzOpenExec(data []byte) int {
